@@ -8,7 +8,7 @@ SW: Possui o código que simula a movimentação de duas linhas de ônibus e o c
   <a href="#objetivo">Objetivo</a> • 
   <a href="#proposta">Proposta</a> • 
   <a href="#tecnologias">Tecnologias</a> • 
-  <a href="#composição">Composição</a>
+  <a href="#composição">Composição</a> • 
   <a href="#status">Status</a>
 </p>
 
