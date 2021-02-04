@@ -63,14 +63,10 @@ Para mais informações técnicas, acessar o website: https://www.waveshare.com/
 Este módulo é uma tela com tecnologia que utiliza "mini esferas" com pigmentos de cor, que ficam suspensas no painel e movem-se de acordo com a carga eletrônica aplicada nas mesmas. Os e-Papers (papéis eletrônicos) refletem a luz ambiente, então não necessitam de luz atrás da tela. Quando mais iluminação ambiente, maior a qualidade de visualização, especialmente na luz do sol. O ângulo de visão também é muito bom, de 180 graus. Esta tecnologia é excelente para painéis de dispositivos focados em leitura, como os e-Readers (por exemplo, o Kindle, da Amazon, ou o Kobo Aura, da Kobo).
 Outra vantagem está no gasto energético. Estes painéis só gastam energia quando precisam atualizar o conteúdo exibido. Depois de atualizar a tela, não gastam energia; portanto, para aplicações em que não necessita de alta taxa de atualização de dados em telas, consegue-se otimizar ainda mais o consumo energético do dispositivo.
 
-
+Pinagem da tela para o Arduino.
 <p align="center">
   <img width="15%" height="15%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/einkpinout.png">
 </p>
-Pinagem da tela para o Arduino.
-
-
-
 
 
 
