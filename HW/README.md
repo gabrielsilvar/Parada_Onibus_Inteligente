@@ -24,7 +24,7 @@ Para mais informações técnicas, acessar o website: http://www.ebyte.com/en/pr
 Pinagem:
 
 <p align="center">
-  <img width="460" height="235" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/loramodule.png">
+  <img width="50%" height="50%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/loramodule.png">
 </p>
 Foto do módulo E32-915T20D
 
@@ -46,7 +46,7 @@ GND: ground.
   - Sem backlight, consumo ultra baixo
 
 <p align="center">
-  <img width="10%" height="10%" src="https://github.com/waiting.png">
+  <img width="15%" height="15%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/einkdisp.PNG">
 </p>
 Foto da tela e-Ink utilizada.
 
