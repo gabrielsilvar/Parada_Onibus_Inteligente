@@ -7,13 +7,9 @@
 - A pasta TCC_Gateway_Main contém os códigos do gateway. Módulo utilizado:
   - E32-915T20D: Módulo LoRa 915MHz
 
-
-
-<p align="center">
-  <img width="410" height="229" src="https://github.com/gabrielsilvar/tcc_final/blob/main/lora.png">
-</p>
-
 O sistema utiliza duas antenas LoRa, da empresa CDEByte, com o chip SX1276, calibrado para a frequência de 915MHz. 
+
+
 
 - Transmissor/Receptor de dados LoRa:
   - Frequência: 915MHz
@@ -40,9 +36,21 @@ AUX pode ser usado para acordar o microcontrolador durante a inicialização do 
 VCC: aceita 2.3V a 5.2V (use 3V3 ou 5V)
 GND: ground.
 
-> Display e-ink:
 
-Link: https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT
+
+- Display e-ink:
+  - Tamanho: 2.13"
+  - Resolução: 250x122 pixels
+  - Interface: SPI
+  - Cor: preto, branco
+  - Sem backlight, consumo ultra baixo
+
+<p align="center">
+  <img width="10%" height="10%" src="https://github.com/waiting.png">
+</p>
+Foto da tela e-Ink utilizada.
+
+Para mais informações técnicas, acessar o website: https://www.waveshare.com/wiki/2.13inch_e-Paper_HAT
 
 Este módulo é uma tela com tecnologia que utiliza "mini esferas" com pigmentos de cor, que ficam suspensas no painel e movem-se de acordo com a carga eletrônica aplicada nas mesmas. Os e-Papers (papéis eletrônicos) refletem a luz ambiente, então não necessitam de luz atrás da tela. Quando mais iluminação ambiente, maior a qualidade de visualização, especialmente na luz do sol. O ângulo de visão também é muito bom, de 180 graus. Esta tecnologia é excelente para painéis de dispositivos focados em leitura, como os e-Readers (por exemplo, o Kindle, da Amazon, ou o Kobo Aura, da Kobo).
 Outra vantagem está no gasto energético. Estes painéis só gastam energia quando precisam atualizar o conteúdo exibido. Depois de atualizar a tela, não gastam energia; portanto, para aplicações em que não necessita de alta taxa de atualização de dados em telas, consegue-se otimizar ainda mais o consumo energético do dispositivo.
@@ -55,7 +63,7 @@ Outra vantagem está no gasto energético. Estes painéis só gastam energia qua
   - Precisão: ~5%
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/dht11.png">
+  <img width="10%" height="10%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/dht11.png">
 </p>
 
 Para mais informações técnicas, acessar o website: https://www.digikey.com/catalog/en/partgroup/dht11-basic-temperature-humidity-sensor-plus-extras/59800?utm_adgroup=Adafruit&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Suppliers&utm_term=&utm_content=Adafruit
