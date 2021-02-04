@@ -36,13 +36,9 @@ AUX pode ser usado para acordar o microcontrolador durante a inicialização do 
 VCC: aceita 2.3V a 5.2V (use 3V3 ou 5V)
 GND: ground.
 
-Conectando ao Arduino, pinos 2 e 3, de acordo com a função:
+Conectando ao Arduino, pinos 2 e 3, de acordo com a função: SoftwareSerial loraserial(2, 3); // RX, TX
 
-SoftwareSerial loraserial(2, 3); // RX, TX
-
-Conectando À NodeMCUv2, utilize os pinos D1 e D2, conforme a função:
-
-SoftwareSerial loraserial(D1, D2); // RX, TX
+Conectando À NodeMCUv2, utilize os pinos D1 e D2, conforme a função: SoftwareSerial loraserial(D1, D2); // RX, TX
 
 
 
