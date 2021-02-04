@@ -1,11 +1,23 @@
-# Repositório do TCC
+# TCC - Painel de Ônibus Inteligente utilizando redes sem fio de longo alcance
 
-Este repositório serve para armazenar os códigos de uso dos módulos necessários para o desenvolvimento do sistema embarcado do TCC.
-Inicialmente será utilizado apenas para compreender o funcionamento dos mesmos, e anotar as funções importantes para o projeto. Depois, se necessário, o repositório será utilizado para todo o projeto. Isso depende da placa que será utilizada.
+Este repositório armazena os códigos de uso dos módulos necessários para o desenvolvimento do sistema embarcado do TCC.
+HW: Possui os códigos do painel inteligente e do gateway
+SW: Possui o código que simula a movimentação de duas linhas de ônibus e o código que atualiza a página web
+
+<p align="center">
+  <a href="#objetivo">Objetivo</a> • 
+  <a href="#proposta">Proposta</a> • 
+  <a href="#tecnologias">Tecnologias</a> • 
+  <a href="#composição">Composição</a>
+  <a href="#status">Status</a>
+</p>
+
+<h4 align="center">Codificação finalizada. Preparando apresentação. </h4>
+
 
 
 <p align="center">
-  <img width="410" height="229" src="https://raw.githubusercontent.com/gabrielsilvar/Arduino/master/lora.png">
+  <img width="410" height="229" src="https://raw.githubusercontent.com/gabrielsilvar/tcc_final/blob/main/lora.png">
 </p>
 
 Os códigos ebytereceiver e ebytesender são relacionados às antenas LoRa.
