@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Onde Está: Ônibus Fortaleza</title>
+</head>
+<body onload=reload()>
+	<div style="width:100%;height:60px;border:3px solid #000;
+				background-color: black">
+					<h1 style="color: white"><center>Onde está? Ônibus Fortaleza</center> </h1>
+	</div>
+
+	<p></p>
+	<h3> 
+		<center>Mostra localização aproximada dos ônibus e pontos de parada monitorados pelos painéis inteligentes</center> 
+	</h3>
+
+	<IFRAME id="mapinha" src="mapadeteste.html" width="100%" height="500" scrolling="no" frameborder="0" align="center" name="Mapa">
+		<head>
+			<meta http-equiv="refresh" content="3">
+		</head>
+	</IFRAME>
+
+	<script> 
+        function reload() {
+        	setInterval(function(){
+        		document.getElementById('mapinha').src += ''; 
+        	}, 10000)
+        } 
+    </script> 
+
+    <hr>
+    <p> Este html recebe os dados de simulação da movimentação das linhas 020 (Campus do Pici Interno) e 075 (Campus do Pici Unifor), para prova de conceito. O painel inteligente de parada de ônibus está sendo simulado na parada da UFC que se localiza na Av. Humberto Monte. Ele é um hardware real, com um sensor de temperatura e umidade, coleta e envia dados reais via tecnologia LoRa para o gateway, que utiliza a tecnologia MQTT para enviar os dados até aqui. </p>
+    <hr>
+</body>
+
+

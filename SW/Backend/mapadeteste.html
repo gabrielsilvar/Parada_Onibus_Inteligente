@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f6f69c76f8a4d13bee2a6d636823fc7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_4f6f69c76f8a4d13bee2a6d636823fc7" ></div>
+        
+</body>
+<script>    
+    
+            var map_4f6f69c76f8a4d13bee2a6d636823fc7 = L.map(
+                "map_4f6f69c76f8a4d13bee2a6d636823fc7",
+                {
+                    center: [-3.73877, -38.569295],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_316d7f5f5df246aea4d7fa891ac816a8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_4f6f69c76f8a4d13bee2a6d636823fc7);
+        
+    
+            var marker_8d019c6513d4438ab7de7ed6e3e5d274 = L.marker(
+                [-3.73877, -38.569295],
+                {}
+            ).addTo(map_4f6f69c76f8a4d13bee2a6d636823fc7);
+        
+    
+        var popup_7b9c9ddd80264fab86a76a11da7312e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dea01b09d2aa480480b985cbd36275b5 = $(`<div id="html_dea01b09d2aa480480b985cbd36275b5" style="width: 100.0%; height: 100.0%;">Ponto de Ônibus</div>`)[0];
+            popup_7b9c9ddd80264fab86a76a11da7312e5.setContent(html_dea01b09d2aa480480b985cbd36275b5);
+        
+
+        marker_8d019c6513d4438ab7de7ed6e3e5d274.bindPopup(popup_7b9c9ddd80264fab86a76a11da7312e5)
+        ;
+
+        
+    
+    
+            marker_8d019c6513d4438ab7de7ed6e3e5d274.bindTooltip(
+                `<div>
+                     Temperatura:28.0 Umidade: 38.0
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9613126c482415db39deefb9a4cc0e2 = L.marker(
+                [-3.738526, -38.569721],
+                {}
+            ).addTo(map_4f6f69c76f8a4d13bee2a6d636823fc7);
+        
+    
+            var icon_9991d0e9ad004fc19388bbda3968bb05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c9613126c482415db39deefb9a4cc0e2.setIcon(icon_9991d0e9ad004fc19388bbda3968bb05);
+        
+    
+        var popup_2bb77f74fef948a78edd8051649472e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a14fbb5e763343e9b8cd7c14d0deecd6 = $(`<div id="html_a14fbb5e763343e9b8cd7c14d0deecd6" style="width: 100.0%; height: 100.0%;">Linha: 020</div>`)[0];
+            popup_2bb77f74fef948a78edd8051649472e6.setContent(html_a14fbb5e763343e9b8cd7c14d0deecd6);
+        
+
+        marker_c9613126c482415db39deefb9a4cc0e2.bindPopup(popup_2bb77f74fef948a78edd8051649472e6)
+        ;
+
+        
+    
+    
+            marker_c9613126c482415db39deefb9a4cc0e2.bindTooltip(
+                `<div>
+                     Campus Pici Interno
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae0583e949434e77b5b1d81bcb763bb4 = L.marker(
+                [-3.788185, -38.480687],
+                {}
+            ).addTo(map_4f6f69c76f8a4d13bee2a6d636823fc7);
+        
+    
+            var icon_8477b1ea51834bcb82e314a18e728009 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae0583e949434e77b5b1d81bcb763bb4.setIcon(icon_8477b1ea51834bcb82e314a18e728009);
+        
+    
+        var popup_48d7c91b503f44f5b8d1a7e673709ff5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d56c016e9bec41c0b7efcc5ba9a0995d = $(`<div id="html_d56c016e9bec41c0b7efcc5ba9a0995d" style="width: 100.0%; height: 100.0%;">Linha: 075</div>`)[0];
+            popup_48d7c91b503f44f5b8d1a7e673709ff5.setContent(html_d56c016e9bec41c0b7efcc5ba9a0995d);
+        
+
+        marker_ae0583e949434e77b5b1d81bcb763bb4.bindPopup(popup_48d7c91b503f44f5b8d1a7e673709ff5)
+        ;
+
+        
+    
+    
+            marker_ae0583e949434e77b5b1d81bcb763bb4.bindTooltip(
+                `<div>
+                     Campus do Pici Unifor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
