@@ -55,7 +55,7 @@ Outra vantagem está no gasto energético. Estes painéis só gastam energia qua
   - Precisão: ~5%
 
 <p align="center">
-  <img width="50%" height="50%" src="https://github.com/waiting.png">
+  <img width="50%" height="50%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/dht11.png">
 </p>
 
 Para mais informações técnicas, acessar o website: https://www.digikey.com/catalog/en/partgroup/dht11-basic-temperature-humidity-sensor-plus-extras/59800?utm_adgroup=Adafruit&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Suppliers&utm_term=&utm_content=Adafruit
