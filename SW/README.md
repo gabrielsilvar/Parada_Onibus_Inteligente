@@ -14,11 +14,11 @@ O sistema utiliza duas antenas LoRa, da empresa CDEByte, com o chip SX1276, cali
 O código backend.py se inscreve em todos os tópicos MQTT das linhas de ônibus, e todos os tópicos MQTT dos painéis inteligentes. Ele recebe as coordenadas de cada linha, os dados climáticos de cada painel, e atualiza o mapa. Além disso, os dados climáticos são salvos em um csv para consulta futura.
 
 <p align="center">
-  <img width="15%" height="15%" src="https://github.com/waiting.png">
-</p>
-Foto da página inicial.
-
-<p align="center">
-  <img width="15%" height="15%" src="https://github.com/waiting.png">
+  <img width="15%" height="15%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/SW/csv.PNG">
 </p>
 Foto do arquivo csv que armazena os dados climáticos.
+
+<p align="center">
+  <img width="15%" height="15%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/SW/paginainicial.png">
+</p>
+Foto da página inicial.
