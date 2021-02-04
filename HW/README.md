@@ -36,6 +36,10 @@ AUX pode ser usado para acordar o microcontrolador durante a inicialização do 
 VCC: aceita 2.3V a 5.2V (use 3V3 ou 5V)
 GND: ground.
 
+Ao conectar no Arduino, utilize a função:
+
+- SoftwareSerial loraserial(2, 3); // RX, TX
+- Pinos 2 e 3 do Arduino
 
 
 - Display e-ink:
@@ -56,6 +60,12 @@ Este módulo é uma tela com tecnologia que utiliza "mini esferas" com pigmentos
 Outra vantagem está no gasto energético. Estes painéis só gastam energia quando precisam atualizar o conteúdo exibido. Depois de atualizar a tela, não gastam energia; portanto, para aplicações em que não necessita de alta taxa de atualização de dados em telas, consegue-se otimizar ainda mais o consumo energético do dispositivo.
 
 
+<p align="center">
+  <img width="15%" height="15%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/TCC_Ardu_Main/einkpinout.png">
+</p>
+Pinagem da tela.
+
+
 
 - Sensor de Temperatura e Umidade:
   - Faixa de Umidade: 20% ~ 80%
@@ -67,3 +77,5 @@ Outra vantagem está no gasto energético. Estes painéis só gastam energia qua
 </p>
 
 Para mais informações técnicas, acessar o website: https://www.digikey.com/catalog/en/partgroup/dht11-basic-temperature-humidity-sensor-plus-extras/59800?utm_adgroup=Adafruit&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Suppliers&utm_term=&utm_content=Adafruit
+
+O sensor DHT11 deve ser colocado no pino 4 do Arduino.
