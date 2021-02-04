@@ -14,7 +14,20 @@ SW: Possui o código que simula a movimentação de duas linhas de ônibus e o c
 
 <h4 align="center">Codificação finalizada. Preparando apresentação. </h4>
 
+### Objetivo
 
+Desenvolver um dispositivo IoT de visualização de dados para mobilidade urbana em Cidades Inteligentes, referente ao tempo de chegada de ônibus em determinada parada de ônibus do seu trajeto. O dispositivo também coleta e exibe dados de umidade do ar e temperatura local, que podem ser enviados ao sistema central para análise.
+
+### Proposta
+
+Adicionar imagem com esquemático da proposta
+
+O sistema utiliza um painel inteligente, composto por um microcontrolador, um painel e-Ink e um sensor de temperatura e umidade. Ele coleta os dados climáticos e envia para o gateway utilizando a tecnologia LoRa (Long Range).
+O gateway recebe estes dados e os envia para o Back-End, que armazena os dados para futura análise, caso necessário.
+O ônibus envia suas coordenadas para o Back-End e para os gateways interessados, utilizando o protocolo MQTT.
+O gateway recebe os dados de localização das linhas de ônibus, agrupa-os em pacotes e envia ao painel inteligente utilizando a tecnologia LoRa.
+O painel recebe as coordenadas, calcula a distância e o tempo de chegada do ônibus e o exibe na tela.
+O usuário pode conferir quanto tempo leva para o ônibus chegar na parada em que se encontra e decidir se espera na parada.
 
 <p align="center">
   <img width="410" height="229" src="https://github.com/gabrielsilvar/tcc_final/blob/main/lora.png">
