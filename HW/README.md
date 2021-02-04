@@ -1,11 +1,11 @@
 # Implementação do Painel Inteligente e do Gateway
 
 - A pasta TCC_Ardu_Main contém os códigos do painel inteligente. Módulos utilizados:
--- E32-915T20D: Módulo LoRa 915MHz
--- DHT11: Sensor Temperatura e Umidade
--- 2.13" E-Ink display HAT: Tela e-Ink para exibir os dados.
+  - E32-915T20D: Módulo LoRa 915MHz
+  - DHT11: Sensor Temperatura e Umidade
+  - 2.13" E-Ink display HAT: Tela e-Ink para exibir os dados.
 - A pasta TCC_Gateway_Main contém os códigos do gateway. Módulo utilizado:
--- E32-915T20D: Módulo LoRa 915MHz
+  - E32-915T20D: Módulo LoRa 915MHz
 
 
 
@@ -31,7 +31,7 @@ Outras infomações técnicas no website.
 Pinagem:
 
 <p align="center">
-  <img width="460" height="235" src="https://raw.githubusercontent.com/gabrielsilvar/Arduino/master/loramodule.png">
+  <img width="460" height="235" src="https://github.com/gabrielsilvar/tcc_final/blob/main/HW/loramodule.png">
 </p>
 Foto do modulo 915T20D
 
