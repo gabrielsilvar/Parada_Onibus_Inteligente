@@ -17,7 +17,7 @@ SW: Possui o código que simula a movimentação de duas linhas de ônibus e o c
 
 
 <p align="center">
-  <img width="410" height="229" src="https://raw.githubusercontent.com/gabrielsilvar/tcc_final/blob/main/lora.png">
+  <img width="410" height="229" src="https://github.com/gabrielsilvar/tcc_final/blob/main/lora.png">
 </p>
 
 Os códigos ebytereceiver e ebytesender são relacionados às antenas LoRa.
