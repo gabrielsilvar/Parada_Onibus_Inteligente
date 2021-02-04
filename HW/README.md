@@ -1,6 +1,20 @@
+# Implementação do Painel Inteligente e do Gateway
+
+- A pasta TCC_Ardu_Main contém os códigos do painel inteligente. Módulos utilizados:
+-- E32-915T20D: Módulo LoRa 915MHz
+-- DHT11: Sensor Temperatura e Umidade
+-- 2.13" E-Ink display HAT: Tela e-Ink para exibir os dados.
+- A pasta TCC_Gateway_Main contém os códigos do gateway. Módulo utilizado:
+-- E32-915T20D: Módulo LoRa 915MHz
+
+
+
 <p align="center">
   <img width="410" height="229" src="https://github.com/gabrielsilvar/tcc_final/blob/main/lora.png">
 </p>
+
+O sistema utiliza duas antenas LoRa, da empresa CDEByte, com o chip SX1276, calibrado para a frequência de 915MHz. 
+
 
 Os códigos ebytereceiver e ebytesender são relacionados às antenas LoRa.
 O código dentro da pasta epd2in13-busdisp é o código do display e-ink. Ainda estou vendo como funciona. Já tenho noção do funcionamento básico, e é interessante como ele permite tanto a atualização total, como parcial, da tela.
