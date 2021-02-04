@@ -22,16 +22,12 @@ Desenvolver um dispositivo IoT de visualização de dados para mobilidade urbana
 <p align="center">
   <img width="50%" heigth="30%" src="https://github.com/gabrielsilvar/tcc_final/blob/main/proposta.PNG">
 </p>
+
 - O sistema utiliza um painel inteligente, composto por um microcontrolador, um painel e-Ink e um sensor de temperatura e umidade. Ele coleta os dados climáticos e envia para o gateway utilizando a tecnologia LoRa (Long Range).
-
 - O gateway recebe estes dados e os envia para o Back-End, que armazena os dados para futura análise, caso necessário.
-
 - O ônibus envia suas coordenadas para o Back-End e para os gateways interessados, utilizando o protocolo MQTT.
-
 - O gateway recebe os dados de localização das linhas de ônibus, agrupa-os em pacotes e envia ao painel inteligente utilizando a tecnologia LoRa.
-
 - O painel recebe as coordenadas, calcula a distância e o tempo de chegada do ônibus e o exibe na tela.
-
 - O usuário pode conferir quanto tempo leva para o ônibus chegar na parada em que se encontra e decidir se espera na parada.
 
 ### Tecnologias
