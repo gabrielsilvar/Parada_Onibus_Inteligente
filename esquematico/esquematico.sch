@@ -1,0 +1,268 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR?
+U 1 1 604484F9
+P 3450 1350
+F 0 "#PWR?" H 3450 1200 50  0001 C CNN
+F 1 "VCC" H 3465 1523 50  0000 C CNN
+F 2 "" H 3450 1350 50  0001 C CNN
+F 3 "" H 3450 1350 50  0001 C CNN
+	1    3450 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor:DHT11 U?
+U 1 1 6044A781
+P 1400 2500
+F 0 "U?" H 1156 2546 50  0000 R CNN
+F 1 "DHT11" H 1156 2455 50  0000 R CNN
+F 2 "Sensor:Aosong_DHT11_5.5x12.0_P2.54mm" H 1400 2100 50  0001 C CNN
+F 3 "http://akizukidenshi.com/download/ds/aosong/DHT11.pdf" H 1550 2750 50  0001 C CNN
+	1    1400 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 1350 3450 1700
+$Comp
+L MCU_Module:Arduino_UNO_R3 A?
+U 1 1 6044417F
+P 3550 2700
+F 0 "A?" H 3550 3881 50  0000 C CNN
+F 1 "Arduino_UNO_R3" H 3550 3790 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 3550 2700 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 3550 2700 50  0001 C CNN
+	1    3550 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 1700 3650 1100
+Wire Wire Line
+	1400 1100 1400 2200
+Wire Wire Line
+	3450 3800 3450 4000
+Wire Wire Line
+	1700 2500 3050 2500
+Wire Wire Line
+	1400 1100 2750 1100
+Wire Wire Line
+	1400 4000 2450 4000
+Wire Wire Line
+	1400 4000 1400 2800
+$Comp
+L tcc_library:eink_display U?
+U 1 1 60465BC2
+P 2100 3650
+F 0 "U?" H 2150 3650 50  0000 R CNN
+F 1 "eink_display" H 2250 2650 50  0000 R CNN
+F 2 "" H 2100 3650 50  0001 C CNN
+F 3 "" H 2100 3650 50  0001 C CNN
+	1    2100 3650
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2350 2800 3050 2800
+Wire Wire Line
+	2350 2900 3050 2900
+Wire Wire Line
+	2350 3000 3050 3000
+Wire Wire Line
+	2350 3100 3050 3100
+Wire Wire Line
+	2350 3300 2650 3300
+Wire Wire Line
+	2650 3300 2650 3200
+Wire Wire Line
+	2650 3200 3050 3200
+Wire Wire Line
+	2350 3200 2550 3200
+Wire Wire Line
+	2550 3200 2550 3400
+Wire Wire Line
+	2550 3400 3050 3400
+Wire Wire Line
+	2350 3400 2450 3400
+Wire Wire Line
+	2450 3400 2450 4000
+Connection ~ 2450 4000
+Wire Wire Line
+	2450 4000 2600 4000
+Wire Wire Line
+	2350 3500 2350 3750
+Wire Wire Line
+	2350 3750 1750 3750
+Wire Wire Line
+	1750 3750 1750 1050
+Wire Wire Line
+	1750 1050 3750 1050
+Wire Wire Line
+	3750 1050 3750 1700
+$Comp
+L tcc_library:e32_915t20d U?
+U 1 1 604797A3
+P 2300 1650
+F 0 "U?" H 2108 1875 50  0000 C CNN
+F 1 "e32_915t20d" H 2108 1784 50  0000 C CNN
+F 2 "" H 2050 1750 50  0001 C CNN
+F 3 "" H 2050 1750 50  0001 C CNN
+	1    2300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 1850 2950 1850
+Wire Wire Line
+	2950 1850 2950 2400
+Wire Wire Line
+	2950 2400 3050 2400
+Wire Wire Line
+	2300 1950 2850 1950
+Wire Wire Line
+	2850 1950 2850 2300
+Wire Wire Line
+	2850 2300 3050 2300
+Wire Wire Line
+	2300 2150 2750 2150
+Wire Wire Line
+	2750 2150 2750 1100
+Connection ~ 2750 1100
+Wire Wire Line
+	2750 1100 3650 1100
+Wire Wire Line
+	2300 2250 2600 2250
+Wire Wire Line
+	2600 2250 2600 4000
+Connection ~ 2600 4000
+Wire Wire Line
+	2600 4000 3450 4000
+Wire Wire Line
+	2300 2050 2600 2050
+Wire Wire Line
+	2600 2050 2600 2250
+Connection ~ 2600 2250
+Wire Wire Line
+	2300 1750 2600 1750
+Wire Wire Line
+	2600 1750 2600 2050
+Connection ~ 2600 2050
+Wire Wire Line
+	2300 1650 2600 1650
+Wire Wire Line
+	2600 1650 2600 1750
+Connection ~ 2600 1750
+$Comp
+L tcc_library:nodemcu_v2 U?
+U 1 1 6048D00D
+P 6250 2050
+F 0 "U?" H 5722 1401 50  0000 R CNN
+F 1 "nodemcu_v2" H 5722 1310 50  0000 R CNN
+F 2 "" H 6250 2150 50  0001 C CNN
+F 3 "" H 6250 2150 50  0001 C CNN
+	1    6250 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L tcc_library:e32_915t20d U?
+U 1 1 6048EE8B
+P 5450 2750
+F 0 "U?" H 5258 2975 50  0000 C CNN
+F 1 "e32_915t20d" H 5258 2884 50  0000 C CNN
+F 2 "" H 5200 2850 50  0001 C CNN
+F 3 "" H 5200 2850 50  0001 C CNN
+	1    5450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 604908AB
+P 6650 1700
+F 0 "#PWR?" H 6650 1550 50  0001 C CNN
+F 1 "VCC" H 6665 1873 50  0000 C CNN
+F 2 "" H 6650 1700 50  0001 C CNN
+F 3 "" H 6650 1700 50  0001 C CNN
+	1    6650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60491575
+P 6650 3750
+F 0 "#PWR?" H 6650 3500 50  0001 C CNN
+F 1 "GND" H 6655 3577 50  0000 C CNN
+F 2 "" H 6650 3750 50  0001 C CNN
+F 3 "" H 6650 3750 50  0001 C CNN
+	1    6650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60492205
+P 3450 4100
+F 0 "#PWR?" H 3450 3850 50  0001 C CNN
+F 1 "GND" H 3455 3927 50  0000 C CNN
+F 2 "" H 3450 4100 50  0001 C CNN
+F 3 "" H 3450 4100 50  0001 C CNN
+	1    3450 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 4100 3450 4000
+Connection ~ 3450 4000
+Wire Wire Line
+	6650 1700 6650 1900
+Wire Wire Line
+	6650 3600 6650 3750
+Wire Wire Line
+	5450 3350 5950 3350
+Wire Wire Line
+	5450 2750 6150 2750
+Wire Wire Line
+	6150 2750 6150 3350
+Connection ~ 6150 3350
+Wire Wire Line
+	6150 3350 6250 3350
+Wire Wire Line
+	5450 2850 6050 2850
+Wire Wire Line
+	6050 2850 6050 3350
+Connection ~ 6050 3350
+Wire Wire Line
+	6050 3350 6150 3350
+Wire Wire Line
+	5450 3150 5950 3150
+Wire Wire Line
+	5950 3150 5950 3350
+Connection ~ 5950 3350
+Wire Wire Line
+	5950 3350 6050 3350
+Wire Wire Line
+	5450 3250 5850 3250
+Wire Wire Line
+	5850 3250 5850 3450
+Wire Wire Line
+	5850 3450 6250 3450
+Wire Wire Line
+	5450 3050 5850 3050
+Wire Wire Line
+	5850 3050 5850 2150
+Wire Wire Line
+	5850 2150 6250 2150
+Wire Wire Line
+	5450 2950 5950 2950
+Wire Wire Line
+	5950 2950 5950 2250
+Wire Wire Line
+	5950 2250 6250 2250
+$EndSCHEMATC
