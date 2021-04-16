@@ -1,4 +1,4 @@
-# TCC - Painel de Ônibus Inteligente utilizando redes sem fio de longo alcance
+# Parada de Ônibus Inteligente utilizando redes sem fio de longo alcance
 
 Este repositório armazena os códigos de uso dos módulos necessários para o desenvolvimento do sistema embarcado do TCC.
 HW: Possui os códigos do painel inteligente e do gateway
